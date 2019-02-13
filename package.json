@@ -1,0 +1,15 @@
+{
+    "name": "ismalfmp.Darkaloid",
+    "title": "Darkaloid",
+    "description": "Dark theme for brackets",
+    "homepage": "https://github.com/Ismalf/darkaloid",
+    "version": "1.0.0",
+    "author": "Ismalfmp <ismalfmp@gmail.com>",
+    "license": "MIT",
+    "theme": {
+        "file": "darkaloid.css",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}

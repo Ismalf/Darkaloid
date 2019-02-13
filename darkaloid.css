@@ -1,0 +1,41 @@
+.CodeMirror, .CodeMirror-scroll {background-color: #1d1f21; color: #fff; }
+
+.CodeMirror-gutter, .CodeMirror-gutters{background-color: #1d1f21;}
+
+.CodeMirror-cursor {border-right: 1px solid #ede0ce;}
+
+.CodeMirror-foldgutter{ border-right: 1px solid #2e2e2e;}
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {border-left: none; border-bottom: 2px solid #ede0ce;} 
+
+.CodeMirror-matchingbracket{ background-color: #aaf; }
+
+/* ------------------------ CSS COLORS ---------------------------*/
+
+.cm-m-css{ color: #999;}
+
+.cm-qualifier{ color: #3ab; }
+
+.cm-atom { color: white;} 
+
+.cm-property { color: #aa2; }
+
+.cm-number { color: #f3f;}
+
+.cm-keyword{ color: #f93;}
+
+/*-------------------------- JS COLORS ----------------------------*/
+
+.cm-m-javascript{color: #999;}
+
+.cm-m-javascript.cm-keyword{color: #3ab;}
+
+.cm-m-javascript.cm-def{ color: #4a7;}
+
+.cm-m-javascript.cm-variable{ color: darkkhaki;}
+
+.cm-m-javascript.cm-string{ color: #7ae;}
+
+.cm-m-javascript.cm-property{ color: #389;}
+
+.cm-m-javascript.cm-operator{ color: #fff;}
