@@ -1,6 +1,6 @@
 /*
-* Dark theme with lost of focus code-decoloration 
-* When you take the cursor out of the main code section the code will lose color
+* Author: Ismalfmp
+* 2019
 */
 
 
@@ -14,7 +14,11 @@
 
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {border-left: none; border-bottom: 2px solid #ede0ce;} 
 
-.CodeMirror-matchingbracket{ background-color: #aaf; }
+.CodeMirror-matchingbracket{ background-color: #fff; transition: .5s;}
+
+.CodeMirror-matchingtag{ background-color: rgba(100, 100, 100, 0.5); transition: .5s;}
+
+.CodeMirror-selected{background-color: rgba(100, 100, 100, 0.5) !important; border-left: 1px solid #aaf; border-right: 1px solid #aaf; } 
 
 /* CSS transition support */
 .CodeMirror .cm-m-css{color: #888; transition: .5s;}
@@ -61,7 +65,13 @@
 
 /*--------------------------- HTML COLORS ------------------------*/
 
-.CodeMirror:hover .cm-m-xml{color: #999;}
+.CodeMirror:hover .cm-m-xml{color: #fff;}
+
+.CodeMirror:hover .cm-m-xml.cm-meta{color: #888;}
+
 .CodeMirror:hover .cm-m-xml.cm-comment{color: #bbb;}
+
 .CodeMirror:hover .cm-m-xml.cm-tag.cm-bracket{color: #a6f;}
+
 .CodeMirror:hover .cm-m-xml.cm-tag{color: #a6f;}
+
