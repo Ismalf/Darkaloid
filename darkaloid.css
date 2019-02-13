@@ -4,9 +4,9 @@
 */
 
 
-.CodeMirror, .CodeMirror-scroll {background-image: linear-gradient(to right,#000, #000000);  }
+.CodeMirror, .CodeMirror-scroll {background-color: #111111;  }
 
-.CodeMirror-gutter, .CodeMirror-gutters{background-color: #000;}
+.CodeMirror-gutter, .CodeMirror-gutters{background-color: #111111;}
 
 .CodeMirror-cursor {border-right: 1px solid #ede0ce;}
 
@@ -17,14 +17,17 @@
 .CodeMirror-matchingbracket{ background-color: #aaf; }
 
 /* CSS transition support */
-.CodeMirror .cm-m-css{color: #333; transition: .5s;}
+.CodeMirror .cm-m-css{color: #888; transition: .5s;}
 
 /* JS transition support*/
-.CodeMirror .cm-m-javascript{color: #333; transition: .5s;}
+.CodeMirror .cm-m-javascript{color: #888; transition: .5s;}
+
+/* HTML transition support*/
+.CodeMirror .cm-m-xml{color: #888; transition: .5s;}
 
 /* ------------------------ CSS COLORS ---------------------------*/
 
-.CodeMirror:hover .cm-m-css { color: #999; transition: .5s;}
+.CodeMirror:hover .cm-m-css { color: #999;}
 
 .CodeMirror:hover .cm-m-css.cm-qualifier { color: #3ab; }
 
@@ -34,7 +37,7 @@
 
 .CodeMirror:hover .cm-m-css.cm-number { color: #f3f;}
 
-.CodeMirror:hover .cm-m-css.cm-keyword { color: #f03;}
+.CodeMirror:hover .cm-m-css.cm-keyword { color: #9f9;}
 
 /*-------------------------- JS COLORS ----------------------------*/
 
@@ -46,6 +49,8 @@
 
 .CodeMirror:hover .cm-m-javascript.cm-variable{ color: #888;}
 
+.CodeMirror:hover .cm-m-javascript.cm-variable-2{ color: #eee;}
+
 .CodeMirror:hover .cm-m-javascript.cm-string{ color: #aa0;}
 
 .CodeMirror:hover .cm-m-javascript.cm-property{ color: #999;}
@@ -53,3 +58,10 @@
 .CodeMirror:hover .cm-m-javascript.cm-operator{ color: #fff;}
 
 .CodeMirror:hover .cm-m-javascript.cm-number{ color: #fa0;}
+
+/*--------------------------- HTML COLORS ------------------------*/
+
+.CodeMirror:hover .cm-m-xml{color: #999;}
+.CodeMirror:hover .cm-m-xml.cm-comment{color: #bbb;}
+.CodeMirror:hover .cm-m-xml.cm-tag.cm-bracket{color: #a6f;}
+.CodeMirror:hover .cm-m-xml.cm-tag{color: #a6f;}
