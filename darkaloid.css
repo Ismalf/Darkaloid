@@ -3,21 +3,24 @@
 * 2019
 */
 
+/* ------------------- Common main area colors ------------------- */
 
+/* Background colors */
 .CodeMirror, .CodeMirror-scroll {background-color: #111111;  }
 
+/* Gutter colors */
 .CodeMirror-gutter, .CodeMirror-gutters{background-color: #111111;}
-
-.CodeMirror-cursor {border-right: 1px solid #ede0ce;}
-
 .CodeMirror-foldgutter{ border-right: 1px solid #2e2e2e;}
 
+/* Cursor */
+.CodeMirror-cursor {border-right: 1px solid #ede0ce;}
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {border-left: none; border-bottom: 2px solid #ede0ce;} 
 
+/* Matching elements */
 .CodeMirror-matchingbracket{ background-color: #fff; transition: .5s;}
-
 .CodeMirror-matchingtag{ background-color: rgba(100, 100, 100, 0.5); transition: .5s;}
 
+/* Selected lines */
 .CodeMirror-selected{background-color: rgba(100, 100, 100, 0.5) !important; border-left: 1px solid #aaf; border-right: 1px solid #aaf; } 
 
 /* CSS transition support */
@@ -37,7 +40,9 @@
 
 .CodeMirror:hover .cm-m-css.cm-atom { color: white;} 
 
-.CodeMirror:hover .cm-m-css.cm-property { color: #fa2; }
+.CodeMirror:hover .cm-m-css.cm-tag { color: #3af;}
+
+.CodeMirror:hover .cm-m-css.cm-property { color: #89c; }
 
 .CodeMirror:hover .cm-m-css.cm-number { color: #f3f;}
 
@@ -47,21 +52,25 @@
 
 .CodeMirror:hover .cm-m-javascript{color: #999;}
 
-.CodeMirror:hover .cm-m-javascript.cm-keyword{color: #fff;}
+.CodeMirror:hover .cm-m-javascript.cm-keyword{color: #3ab;}
 
-.CodeMirror:hover .cm-m-javascript.cm-def{ color: #bbb;}
+.CodeMirror:hover .cm-m-javascript.cm-def{ color: #fff;}
 
-.CodeMirror:hover .cm-m-javascript.cm-variable{ color: #888;}
+.CodeMirror:hover .cm-m-javascript.cm-variable{ color: #fff;}
 
-.CodeMirror:hover .cm-m-javascript.cm-variable-2{ color: #eee;}
+.CodeMirror:hover .cm-m-javascript.cm-variable-2{ color: #fff;}
+
+.CodeMirror:hover .cm-m-javascript.cm-variable-3{ color: #fff;}
 
 .CodeMirror:hover .cm-m-javascript.cm-string{ color: #aa0;}
 
-.CodeMirror:hover .cm-m-javascript.cm-property{ color: #999;}
+.CodeMirror:hover .cm-m-javascript.cm-property{ color: #888;}
 
 .CodeMirror:hover .cm-m-javascript.cm-operator{ color: #fff;}
 
 .CodeMirror:hover .cm-m-javascript.cm-number{ color: #fa0;}
+
+.CodeMirror:hover .cm-m-javascript.cm-comment{ color: #777;}
 
 /*--------------------------- HTML COLORS ------------------------*/
 
@@ -71,7 +80,11 @@
 
 .CodeMirror:hover .cm-m-xml.cm-comment{color: #bbb;}
 
-.CodeMirror:hover .cm-m-xml.cm-tag.cm-bracket{color: #a6f;}
+.CodeMirror:hover .cm-m-xml.cm-tag.cm-bracket{color: #3ab;}
 
-.CodeMirror:hover .cm-m-xml.cm-tag{color: #a6f;}
+.CodeMirror:hover .cm-m-xml.cm-tag{color: #3ab;}
+
+.CodeMirror:hover .cm-m-xml.cm-attribute{color: #888;}
+
+.CodeMirror:hover .cm-m-xml.cm-string{color: #aa0;}
 
