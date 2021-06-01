@@ -10,17 +10,17 @@ Licensed under MIT.
 
 # Screenshots
 ## HTML
-### Full colour
+### Full color
 ![HTMLfullcolor](https://github.com/Ismalf/Darkaloid/blob/master/Screenshots/HTMLFC.PNG)
-### No colour
+### No color
 ![HTMLfullcolor](https://github.com/Ismalf/Darkaloid/blob/master/Screenshots/HTMLNC.PNG)
 ## CSS
-### Full colour
+### Full color
 ![HTMLfullcolor](https://github.com/Ismalf/Darkaloid/blob/master/Screenshots/CSSFC.PNG)
-### No colour
+### No color
 ![HTMLfullcolor](https://github.com/Ismalf/Darkaloid/blob/master/Screenshots/CSSNC.PNG)
 ## JS
-### Full colour
+### Full color
 ![HTMLfullcolor](https://github.com/Ismalf/Darkaloid/blob/master/Screenshots/JSFC.PNG)
-### No colour
+### No color
 ![HTMLfullcolor](https://github.com/Ismalf/Darkaloid/blob/master/Screenshots/JSNC.PNG)
