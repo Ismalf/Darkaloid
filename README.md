@@ -2,8 +2,8 @@
 
 A dark theme for brackets!
 
-Cold colour palette with a focus colouring and decolouring effect! 
-While you keep the mouse over the code area it will be coloured, move your mouse to another place and the color is gone!
+Cold color palette with a focus coloring and decoloring effect! 
+While you keep the mouse over the code area it will be colored, move your mouse to another place and the color is gone!
 
 # LICENSE 
 Licensed under MIT.
